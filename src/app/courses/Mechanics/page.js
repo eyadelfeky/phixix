@@ -3,7 +3,7 @@ import { useState,useEffect } from "react";
 import Image from "next/image"
 import Menubar from "@/components/Menubar";
 
-export default function mechanics(){
+export default function Mechanics(){
     const [Progress,updateProgress] = useState(0);
     const handleProgress = (e) => {
         e.preventDefault;
